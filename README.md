@@ -1,5 +1,16 @@
 # New Project Kickstart
-For every new freelance website that I do, I got sick of recreating the same files and folders. This is my attempt at building a basic new project template. It comes complete with my custom gulp file that includes tasks for minimizing css, concatenating css, autoprefixing, concatenating javascript files, minifying javascript files, livereload, and more.
+For every new freelance website that I do, I've noticed a lot of redundancy. I finally got red up with recreating the same files and folders over and over again. This repo solves that by having a ready-built template to start from.
+
+It comes complete with my custom gulp file that includes the following tasks:
+* Autoprefixes CSS (up to the last 2 browser versions)
+* Minifies the CSS
+* Concatenates CSS
+* Compresses/optimized images
+* Minifies HTML
+* Concatenates JS
+* Minifies JS
+* Terminal Error Handling
+* LiveReload
 
 # Instructions
 1. If node is not already installed on your machine, you can do so by by visiting https://nodejs.org/download/. The install process is quick. You can check to see that you already have node installed on your machine by typing `npm -v` in a terminal. If you see anything OTHER than a number (i.e. 1.4.28), then you need to install node.
