@@ -1,7 +1,7 @@
 # New Project Kickstart
 For every new freelance website that I do, I've noticed a lot of redundancy. I finally got fed up with recreating the same files and folders over and over again. This repo solves that by having a ready-built template to start from.
 
-It comes complete with my custom gulp file that includes the following tasks:
+It comes complete with my custom gulp file that automates the following tasks:
 * Autoprefixes CSS (up to the last 2 browser versions)
 * Minifies the CSS
 * Concatenates CSS
@@ -9,7 +9,7 @@ It comes complete with my custom gulp file that includes the following tasks:
 * Minifies HTML
 * Concatenates JS
 * Minifies JS
-* Terminal Error Handling
+* Terminal Error Handling (any errors detected in CSS/JS will cause a tone and a notification in the terminal window)
 * LiveReload
 
 # Instructions
