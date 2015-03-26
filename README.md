@@ -10,7 +10,7 @@ It comes complete with my custom gulp file that automates the following tasks:
 * Concatenates JS
 * Minifies JS
 * Terminal Error Handling (any errors detected in CSS/JS will cause a tone and a notification in the terminal window)
-* LiveReload
+* LiveReload (see step 5 below)
 
 # Instructions
 1) If node is not already installed on your machine, you can do so by by visiting https://nodejs.org/download/. The install process is quick. You can check to see that you already have node installed on your machine by typing `npm -v` in a terminal. If you see anything OTHER than a number (i.e. 1.4.28), then you need to install node.
