@@ -15,6 +15,12 @@ It comes complete with my custom gulp file that includes the following tasks:
 # Instructions
 1. If node is not already installed on your machine, you can do so by by visiting https://nodejs.org/download/. The install process is quick. You can check to see that you already have node installed on your machine by typing `npm -v` in a terminal. If you see anything OTHER than a number (i.e. 1.4.28), then you need to install node.
 
+Additionally, you can update node/npm by using the following commands:
+
+    sudo npm cache clean -f
+    sudo npm install -g n
+    sudo n stable
+
 2. Next, install gulp globally by entering `sudo npm install -g gulp` in your terminal. Again, you can check to see that gulp is already installed on your machine by typing `gulp -v`.
 
 3. Once node and gulp are installed, navigate clone this repo to your local machine by typing `git clone https://github.com/brycematheson/project-kickstart.git`. Then `cd` into the 'project-kickstart' folder. You can rename this if you'd like.
