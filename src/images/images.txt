@@ -1,1 +1,1 @@
-
+Insert .jpg images into this folder. They will automatically be optimized and copied to the 'build/images/' folder.
