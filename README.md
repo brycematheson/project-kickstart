@@ -23,7 +23,7 @@ Additionally, you can update node/npm by using the following commands:
 
 2. Next, install gulp globally by entering `sudo npm install -g gulp` in your terminal. Again, you can check to see that gulp is already installed on your machine by typing `gulp -v`.
 
-3. Once node and gulp are installed, navigate clone this repo to your local machine by typing `git clone https://github.com/brycematheson/project-kickstart.git`. Then `cd` into the 'project-kickstart' folder. You can rename this if you'd like.
+3. Once node and gulp are installed, clone this repo to your local machine by typing `git clone https://github.com/brycematheson/project-kickstart.git`. Then `cd` into the 'project-kickstart' folder. You can rename this if you'd like.
 
 4. Next, type `sudo npm install`. This will look through the package.json file and install any missing dependencies required by the gulp file. Be patient, this could take a while.
 
