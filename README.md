@@ -38,6 +38,6 @@ Additionally, you can update node/npm by using the following commands:
 
 6) Once you're finished, type `gulp` in the terminal to begin the Gulp task.
 
-7) In your favorite text editor (I prefer Sublime), make changes to the files in the `src` directory. Gulp will automatically watch these files, and rerun the various tasks if it detects any changes to the files.Chrome should automatically update to reflect the changes.
+7) In your favorite text editor (I prefer Sublime), make changes to the files in the `src` directory. Gulp will automatically watch these files, and rerun the various tasks if it detects any changes to the files. Chrome should automatically update to reflect the changes.
 
 Happy coding!
