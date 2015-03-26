@@ -1,5 +1,5 @@
 # New Project Kickstart
-For every new freelance website that I do, I've noticed a lot of redundancy. I finally got red up with recreating the same files and folders over and over again. This repo solves that by having a ready-built template to start from.
+For every new freelance website that I do, I've noticed a lot of redundancy. I finally got fed up with recreating the same files and folders over and over again. This repo solves that by having a ready-built template to start from.
 
 It comes complete with my custom gulp file that includes the following tasks:
 * Autoprefixes CSS (up to the last 2 browser versions)
