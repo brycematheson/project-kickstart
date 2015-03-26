@@ -31,6 +31,6 @@ Additionally, you can update node/npm by using the following commands:
 
 6. In your favorite text editor (I prefer Sublime), make changes to the files in the `src` directory. Gulp will automatically watch these files, and rerun the various tasks if it detects any changes to the files.
 
-7. LiveReload is also supported in the gulpfile. Install the 'LiveReload' extension (https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CB4QFjAA&url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Flivereload%2Fjnihajbhpnppcggbcgedagnkighmdlei%3Fhl%3Den&ei=EYwTVaigBYiegwSVhoLgAQ&usg=AFQjCNE3uLWl-7EsJ9SPxfbqp4JErdhiTQ&sig2=n0iCjBfdqBOhqqrzn1KOhg&bvm=bv.89217033,d.eXY), enable it, check the box under the extension settings that says "Allow access to file URLs", and then open `build/index.html` in your browser. Upon making changes, Chrome and Gulp will automatically update to reflect.
+7. LiveReload is also supported in the gulpfile. Install the 'LiveReload' extension (https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en), enable it, check the box under the extension settings that says "Allow access to file URLs", and then open `build/index.html` in your browser. Upon making changes, Chrome and Gulp will automatically update to reflect.
 
 Happy coding!
