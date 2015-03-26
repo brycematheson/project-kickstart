@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "a quick and simple way to start a new project, complete with gulp tasks",
   "main": "gulpfile.js",
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/brycematheson/project-kickstart.git"
+  }
   "dependencies": {
     "gulp": "^3.8.11",
     "gulp-autoprefixer": "^2.1.0",
