@@ -27,10 +27,16 @@ Additionally, you can update node/npm by using the following commands:
 
 4. Next, type `sudo npm install`. This will look through the package.json file and install any missing dependencies required by the gulp file. Be patient, this could take a while.
 
-5. Once that finishes, type `gulp` to begin the Gulp task.
+5. LiveReload is also supported in the gulpfile. To get that running:
+* Install the 'LiveReload' extension (https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en)
+* Enable it through settings in Chrome
+* Check the box under the extension settings that says "Allow access to file URLs"
+* Restart Chrome <-- This is pretty crucial
+* Open `build/index.html` in your browser.
+* Click on the little icon in Chrome that looks like two arrows, with a small black circle in the middle. This will enable LiveReload on that specific page.
 
-6. In your favorite text editor (I prefer Sublime), make changes to the files in the `src` directory. Gulp will automatically watch these files, and rerun the various tasks if it detects any changes to the files.
+6. Once you're finished, type `gulp` in the terminal to begin the Gulp task.
 
-7. LiveReload is also supported in the gulpfile. Install the 'LiveReload' extension (https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en), enable it, check the box under the extension settings that says "Allow access to file URLs", and then open `build/index.html` in your browser. Upon making changes, Chrome and Gulp will automatically update to reflect.
+7. In your favorite text editor (I prefer Sublime), make changes to the files in the `src` directory. Gulp will automatically watch these files, and rerun the various tasks if it detects any changes to the files.Chrome should automatically update to reflect the changes.
 
 Happy coding!

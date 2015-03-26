@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "a quick and simple way to start a new project, complete with gulp tasks",
   "main": "gulpfile.js",
-  "repository":
-  { "type" : "git",
-    "url" : "https://github.com/brycematheson/project-kickstart.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brycematheson/project-kickstart.git"
   },
   "dependencies": {
     "gulp": "^3.8.11",
@@ -21,10 +21,10 @@
     "gulp-uglify": "^1.1.0",
     "gulp-notify": "^2.2.0",
     "beepbeep": "^1.2.0",
-    "gulp-util": "^3.0.4",
-    "express": "^4.2.0"
+    "gulp-util": "^3.0.4"
   },
   "devDependencies": {
+    "express": "^4.12.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
