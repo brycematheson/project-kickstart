@@ -28,6 +28,7 @@ Additionally, you can update node/npm by using the following commands:
 4. Next, type `sudo npm install`. This will look through the package.json file and install any missing dependencies required by the gulp file. Be patient, this could take a while.
 
 5. LiveReload is also supported in the gulpfile. To get that running:
+
 * Install the 'LiveReload' extension (https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en)
 * Enable it through settings in Chrome
 * Check the box under the extension settings that says "Allow access to file URLs"
